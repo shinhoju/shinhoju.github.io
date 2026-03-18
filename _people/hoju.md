@@ -4,7 +4,7 @@ title: Hoju Shin (신호주)
 position: Master student
 email: qut1526@pukyong.ac.kr
 research: Federated learning, image deblurring
-img: assets/img/people/bennett.gif
+img: assets/img/people/unknown.png
 importance: 3
 category: students
 ---

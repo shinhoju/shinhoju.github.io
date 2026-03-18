@@ -36,3 +36,37 @@ $max-content-width: {{ site.max_width }};
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
+
+.person-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.person-photo img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.person-meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.person-meta h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.person-position,
+.person-email,
+.person-research {
+  margin: 0.3rem 0;
+  line-height: 1.5;
+}
