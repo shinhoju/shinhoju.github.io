@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "people",
-          description: "academics and students engaged in BIG-Culture",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
@@ -124,41 +124,11 @@ ninja.data = [{
           section: "News",},{id: "news-our-project-development-of-a-multi-institutional-endoscopic-digital-twin-and-surgical-simulation-world-model-platform-based-on-4dgs-and-federated-learning-has-been-selected-for-funding-by-the-national-research-foundation-of-korea-nrf",
           title: 'Our project, “Development of a Multi-Institutional Endoscopic Digital Twin and Surgical Simulation World...',
           description: "",
-          section: "News",},{id: "people-pete-bennett",
-          title: 'Pete Bennett',
-          description: "Lecturer, interested in playful interfaces, tangible interaction and generative music.",
+          section: "News",},{id: "people-seung-wook-kim-김승욱",
+          title: 'Seung-Wook Kim (김승욱)',
+          description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/bennett/";
-            },},{id: "people-jack-burnett",
-          title: 'Jack Burnett',
-          description: "Interactive AI CDT Student",
-          section: "People",handler: () => {
-              window.location.href = "/people/burnett/";
-            },},{id: "people-vishal-joshi",
-          title: 'Vishal Joshi',
-          description: "Interactive AI CDT Student",
-          section: "People",handler: () => {
-              window.location.href = "/people/joshi/";
-            },},{id: "people-atau-tanaka",
-          title: 'Atau Tanaka',
-          description: "embodied musical interaction, human computer interaction and gestural computer music performance.",
-          section: "People",handler: () => {
-              window.location.href = "/people/tanaka/";
-            },},{id: "people-jacob-thomas",
-          title: 'Jacob Thomas',
-          description: "PhD student researching immersive arts and technologies in Bristol Interaction Group",
-          section: "People",handler: () => {
-              window.location.href = "/people/thomas/";
-            },},{id: "people-nathaniel-thorne",
-          title: 'Nathaniel Thorne',
-          description: "Immersive Arts Student",
-          section: "People",handler: () => {
-              window.location.href = "/people/thorne/";
-            },},{id: "people-mamoru-watanabe",
-          title: 'Mamoru Watanabe',
-          description: "PhD student at Bristol Interaction Group",
-          section: "People",handler: () => {
-              window.location.href = "/people/watanabe/";
+              window.location.href = "/people/professor/";
             },},{id: "projects-16x16",
           title: '16x16',
           description: "An audiovisual sequencer installation",
