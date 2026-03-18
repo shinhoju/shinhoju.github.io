@@ -19,14 +19,17 @@
         </p>
       {% endif %}
 
-      {% if project.email %}
-        <p class="person-email">
-          <a href="mailto:{{ project.email }}">{{ project.email }}</a>
+      {% if project.research %}
+        <p class="person-research">
+          <strong>Research interests:</strong> {{ project.research }}
         </p>
       {% endif %}
 
-      {% if project.research %}
-        <p class="person-research">{{ project.research }}</p>
+      {% if project.email %}
+        <p class="person-email">
+          <strong>Email:</strong>
+          <a href="mailto:{{ project.email }}">{{ project.email }}</a>
+        </p>
       {% endif %}
 
       {% if project.department %}
