@@ -25,6 +25,12 @@
 
       {% if project.department %}
         <p class="person-department">{{ project.department }}</p>
+
+      {% if project.cv %}
+        <p class="person-link">
+          <a href="{{ project.cv | relative_url }}" target="_blank">CV</a>
+        </p>
+      {% endif %}
     </div>
   </div>
 </div>
