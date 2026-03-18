@@ -124,11 +124,26 @@ ninja.data = [{
           section: "News",},{id: "news-our-project-development-of-a-multi-institutional-endoscopic-digital-twin-and-surgical-simulation-world-model-platform-based-on-4dgs-and-federated-learning-has-been-selected-for-funding-by-the-national-research-foundation-of-korea-nrf",
           title: 'Our project, “Development of a Multi-Institutional Endoscopic Digital Twin and Surgical Simulation World...',
           description: "",
-          section: "News",},{id: "people-seung-wook-kim-김승욱",
+          section: "News",},{id: "people-hoju-shin-신호주",
+          title: 'Hoju Shin (신호주)',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/hoju/";
+            },},{id: "people-ji-ah-kim-김지아",
+          title: 'Ji-Ah Kim (김지아)',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/jiah/";
+            },},{id: "people-seung-wook-kim-김승욱",
           title: 'Seung-Wook Kim (김승욱)',
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/professor/";
+            },},{id: "people-seong-yeol-kim-김성열",
+          title: 'Seong-Yeol Kim (김성열)',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/seongyeol/";
             },},{id: "projects-16x16",
           title: '16x16',
           description: "An audiovisual sequencer installation",
