@@ -2,10 +2,10 @@
 layout: page
 permalink: /people/
 title: people
-description: academics and students engaged in BIG-Culture
+description: 
 nav: true
 nav_order: 4
-display_categories: [academics, students]
+display_categories: [professor, students]
 horizontal: true
 ---
 
