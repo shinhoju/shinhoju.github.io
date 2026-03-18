@@ -44,7 +44,7 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
+      <h2 style="margin-top: 1rem">
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
@@ -52,7 +52,7 @@ layout: default
 
     <!-- Research interests -->
     <div class="research-interests">
-      <h2>Research Interests</h2>
+      <h2 style="margin-top: 1rem">Research Interests</h2>
 
       <div class="research-item">
         <h4>📷 Object detection</h4>
