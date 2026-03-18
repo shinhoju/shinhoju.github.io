@@ -5,7 +5,7 @@ position:
 email: sch804@pukyong.ac.kr
 department: POSTEC
 research: 
-img: assets/img/people/chsung.png
+img: assets/img/people/chsung.jpg
 importance: 7
 category: alumni
 ---

@@ -13,6 +13,12 @@
         <p class="person-position">{{ project.position }}</p>
       {% endif %}
 
+      {% if project.cv %}
+        <p class="person-link">
+          <a href="{{ project.cv | relative_url }}" target="_blank">CV</a>
+        </p>
+      {% endif %}
+
       {% if project.email %}
         <p class="person-email">
           <a href="mailto:{{ project.email }}">{{ project.email }}</a>
@@ -25,12 +31,6 @@
 
       {% if project.department %}
         <p class="person-department">{{ project.department }}</p>
-      {% endif %}
-
-      {% if project.cv %}
-        <p class="person-link">
-          <a href="{{ project.cv | relative_url }}" target="_blank">CV</a>
-        </p>
       {% endif %}
     </div>
   </div>

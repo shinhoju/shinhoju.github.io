@@ -5,7 +5,7 @@ position:
 email: skdud11318@naver.com
 department:
 research: 
-img: assets/img/people/nygu.png
+img: assets/img/people/nygu.jpg
 importance: 8
 category: alumni
 ---

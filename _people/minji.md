@@ -5,7 +5,7 @@ position:
 email: kminzy23@kakao.com
 department: 부산 MBC
 research: 
-img: assets/img/people/mjkim.png
+img: assets/img/people/mjkim.jpg
 importance: 6
 category: alumni
 ---
