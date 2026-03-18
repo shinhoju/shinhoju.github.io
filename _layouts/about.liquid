@@ -58,13 +58,28 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
+    <!-- Research interests -->
+    <div class="research-interests">
+      <h2>Research Interests</h2>
+
+      <div class="research-item">
+        <h3>Object Detection</h3>
+        <p>
+          We study object detection methods for robust visual understanding across
+          diverse environments and real-world scenarios.
+        </p>
+        <img src="{{ '/assets/img/object_detection.png' | relative_url }}" alt="Object Detection">
+      </div>
+
+      <div class="research-item">
+        <h3>Federated Learning</h3>
+        <p>
+          We explore federated learning frameworks for privacy-preserving and
+          distributed machine learning across multiple clients.
+        </p>
+        <img src="{{ '/assets/img/federated_learning.png' | relative_url }}" alt="Federated Learning">
+      </div>
+    </div>
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
