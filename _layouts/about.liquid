@@ -6,11 +6,11 @@ layout: default
     <div class="header-bar">
       {% if site.title == 'blank' %}
         <h1>
-          <span class="title-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         </h1>
         {{ site.last_name }}
       {% else %}
-        <h1>{{ site.title }}</h1>
+        <h1 class="title-bold">{{ site.title }}</h1>
       {% endif %}
       <h2>{{ page.subtitle }}</h2>
     </div>
