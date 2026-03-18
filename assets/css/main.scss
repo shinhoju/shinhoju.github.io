@@ -58,12 +58,14 @@ $max-content-width: {{ site.max_width }};
   justify-content: center;
 }
 
-.person-meta h3 {
+.person-meta h4 {
   margin: 0 0 0.5rem 0;
   font-size: 2rem;
   font-weight: 600;
 }
 
+.person-cv,
+.person-department,
 .person-position,
 .person-email,
 .person-research {
