@@ -48,17 +48,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/office-ambience/";
           
         },
-      },{id: "post-ron-herrema-talk",
-        
-          title: "Ron Herrema talk",
-        
-        description: "Today we had a talk from Ron Herrema on a phenomenological approach to writing computer code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/ron-herrema/";
-          
-        },
       },{id: "post-intersensory-data-representations-of-a-black-hole",
         
           title: 'Intersensory data representations of a black hole <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -126,8 +115,8 @@ ninja.data = [{
           section: "Events",},{id: "events-join-us-at-south-west-uk-pre-chi-2025-april-14th-15th-in-bristol-learn-more",
           title: 'Join us at South-West UK Pre-CHI 2025, April 14th-15th in Bristol Learn more...',
           description: "",
-          section: "Events",},{id: "news-one-paper-fedwsq-efficient-federated-learning-with-weight-standardization-and-distribution-aware-non-uniform-quantization-has-been-accepted-to-iccv-2025",
-          title: 'One paper “FedWSQ: Efficient Federated Learning with Weight Standardization and Distribution-Aware Non-Uniform Quantization”...',
+          section: "Events",},{id: "news-our-paper-fedwsq-efficient-federated-learning-with-weight-standardization-and-distribution-aware-non-uniform-quantization-has-been-accepted-to-iccv-2025",
+          title: 'Our paper “FedWSQ: Efficient Federated Learning with Weight Standardization and Distribution-Aware Non-Uniform Quantization”...',
           description: "",
           section: "News",},{id: "news-our-project-intelligent-mobile-vision-efficient-federated-moe-with-device-specific-expert-models-and-semi-supervised-learning-has-been-selected-for-funding-by-the-national-research-foundation-of-korea-nrf",
           title: 'Our project, “Intelligent Mobile Vision: Efficient Federated MoE with Device-Specific Expert Models and...',
@@ -200,11 +189,6 @@ ninja.data = [{
           description: "A weekly meeting to make noise.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/music_hack_club/";
-            },},{id: "projects-squishy-sonics",
-          title: 'Squishy Sonics',
-          description: "Making AI music with clay",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/squishy-sonics/";
             },},{id: "projects-research-on-synaesthesia",
           title: 'Research on Synaesthesia',
           description: "Interview and workshop study on Synaesthesia",
