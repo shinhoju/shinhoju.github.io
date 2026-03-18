@@ -6,12 +6,11 @@ title: Vision Lab. # the website title (if blank, full name will be used instead
 first_name: Vision
 last_name: Lab.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  The blog and website for BIG-Culture, a lab within the Bristol Interaction Group.
+  The blog and website for Vision Lab.
 footer_text: >
-  BIG Culture is a research lab within the <a href="http://biglab.co.uk/" target="_blank">Bristol Interaction Group</a> at the <a href="http://www.bristol.ac.uk/" target="_blank">University of Bristol</a>. <br>
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: BIG, Culture, BIG Culture, Bristol Interaction Group, University of Bristol, Bristol # add your own keywords or leave empty
+keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: icon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
