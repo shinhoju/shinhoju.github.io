@@ -124,7 +124,17 @@ ninja.data = [{
           section: "News",},{id: "news-our-project-development-of-a-multi-institutional-endoscopic-digital-twin-and-surgical-simulation-world-model-platform-based-on-4dgs-and-federated-learning-has-been-selected-for-funding-by-the-national-research-foundation-of-korea-nrf",
           title: 'Our project, “Development of a Multi-Institutional Endoscopic Digital Twin and Surgical Simulation World...',
           description: "",
-          section: "News",},{id: "people-hoju-shin-신호주",
+          section: "News",},{id: "people-chi-hun-sung-성치훈",
+          title: 'Chi-Hun Sung (성치훈)',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/chi-hun/";
+            },},{id: "people-ga-ryeong-kim-김가령",
+          title: 'Ga-Ryeong Kim (김가령)',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/garyeong/";
+            },},{id: "people-hoju-shin-신호주",
           title: 'Hoju Shin (신호주)',
           description: "",
           section: "People",handler: () => {
@@ -134,6 +144,16 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/jiah/";
+            },},{id: "people-min-ji-kim-김민지",
+          title: 'Min-Ji Kim (김민지)',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/minji/";
+            },},{id: "people-na-young-gu-구나영",
+          title: 'Na-Young Gu (구나영)',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/na-young/";
             },},{id: "people-seung-wook-kim-김승욱",
           title: 'Seung-Wook Kim (김승욱)',
           description: "",
