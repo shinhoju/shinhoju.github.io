@@ -5,7 +5,7 @@ subtitle:
   Our research covers a broad range of topics in computer vision and image processing. <br>
   <span class="join-text">
     If you are interested in joining our lab, please feel free to
-    <a href="mailto:swkim@pknu.ac.kr">contact us</a>!
+    <a href="mailto:swkim@pknu.ac.kr">contact us!</a>
   </span>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
