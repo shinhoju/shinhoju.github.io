@@ -1,12 +1,27 @@
 <div class="col">
-  <div class="person-card">
-    <div class="person-img">
-      <img src="{{ project.image | prepend: '/assets/img/' | relative_url }}" alt="{{ project.name }}">
-    </div>
+  <div class="person-row">
+    {% if project.img %}
+      <div class="person-photo">
+        <img src="{{ project.img | relative_url }}" alt="{{ project.title }}">
+      </div>
+    {% endif %}
 
-    <div class="person-info">
-      <h4>{{ project.name }}</h4>
-      <p>{{ project.position }}</p>
+    <div class="person-meta">
+      <h3>{{ project.title }}</h3>
+
+      {% if project.position %}
+        <p class="person-position">{{ project.position }}</p>
+      {% endif %}
+
+      {% if project.email %}
+        <p class="person-email">
+          <a href="mailto:{{ project.email }}">{{ project.email }}</a>
+        </p>
+      {% endif %}
+
+      {% if project.research %}
+        <p class="person-research">{{ project.research }}</p>
+      {% endif %}
     </div>
   </div>
 </div>

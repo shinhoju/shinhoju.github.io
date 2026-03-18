@@ -5,7 +5,7 @@ title: people
 description: 
 nav: true
 nav_order: 4
-display_categories: [professor, students]
+display_categories: [professor, students, alumni]
 horizontal: true
 ---
 
