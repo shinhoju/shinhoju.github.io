@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Seong-Yeol Kim (김성열)
+title: Ga-Ryeong Kim (김가령)
 position: 
-email: qksksktjdduf@naver.com
+email: dbswl6071@naver.com
 department: <a href="https://www.lignex1.com/">LIG넥스원</a>
 research: 
 img: assets/img/people/unknown.png
-importance: 4
+importance: 5
 category: alumni
 ---

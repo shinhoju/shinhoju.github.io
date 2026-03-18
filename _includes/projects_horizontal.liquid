@@ -7,7 +7,7 @@
     {% endif %}
 
     <div class="person-meta">
-      <h3>{{ project.title }}</h3>
+      <h4>{{ project.title }}</h4>
 
       {% if project.position %}
         <p class="person-position">{{ project.position }}</p>
@@ -22,6 +22,9 @@
       {% if project.research %}
         <p class="person-research">{{ project.research }}</p>
       {% endif %}
+
+      {% if project.department %}
+        <p class="person-department">{{ project.department }}</p>
     </div>
   </div>
 </div>
