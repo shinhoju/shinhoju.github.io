@@ -24,6 +24,7 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
+// custom style
 .site-title {
   font-weight: 300 !important;
   color: #9ca3af !important;
@@ -43,6 +44,7 @@ $max-content-width: {{ site.max_width }};
   border-radius: 10px;
 }
 
+// people
 .person-row {
   display: flex;
   align-items: center;
@@ -77,4 +79,20 @@ $max-content-width: {{ site.max_width }};
 .person-research {
   margin: 0.3rem 0;
   line-height: 1.5;
+}
+
+//publications
+.badge-conf {
+  background-color: #2563eb !important;
+  color: white !important;
+}
+
+.badge-journal {
+  background-color: #059669 !important;
+  color: white !important;
+}
+
+abbr.badge a {
+  color: white !important;
+  text-decoration: none;
 }
