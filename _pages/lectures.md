@@ -7,8 +7,6 @@ nav: true
 nav_order: 6
 ---
 
-<h2 style="margin-top: 40px;">Lectures</h2>
-
 <div class="lectures">
 
   <!-- AI개론 -->
