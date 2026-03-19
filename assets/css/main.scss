@@ -30,9 +30,17 @@ $max-content-width: {{ site.max_width }};
   color: #9ca3af !important;
 }
 
+[data-theme="dark"] .site-title {
+  color: #e5e7eb !important;
+}
+
 .title-bold {
   font-weight: 700;
   color: #374151;
+}
+
+[data-theme="dark"] .title-bold {
+  color: #f9fafb;
 }
 
 .join-text {
