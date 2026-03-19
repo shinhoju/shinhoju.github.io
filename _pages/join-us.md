@@ -25,4 +25,4 @@ Please send an email including:
 - Transcript (optional)
 - Brief statement of interest
 
-📧 **Email:** swkim@pknu.ac.kr
+📧 **Email:** [swkim@pknu.ac.kr](swkim@pknu.ac.kr)
