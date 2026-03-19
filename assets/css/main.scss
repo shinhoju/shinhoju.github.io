@@ -61,8 +61,8 @@ $max-content-width: {{ site.max_width }};
 }
 
 .person-photo img {
-  width: 220px;
-  height: 220px;
+  width: 180px;
+  aspect-ratio: 5 / 3;
   object-fit: cover;
   border-radius: 8px;
   display: block;
