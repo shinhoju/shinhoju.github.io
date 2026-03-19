@@ -22,10 +22,13 @@
             {% endif %}
           </abbr>
         {% else %}
-          <abbr
-            class="badge rounded w-100
-              {% if entry.type == 'inproceedings' %}badge-conf{% elsif entry.type == 'article' %}badge-journal{% endif %}"
-          >
+          {% assign badge_class = "badge rounded w-100" %}
+          {% if entry.type == "inproceedings" %}
+            {% assign badge_class = "badge rounded w-100 badge-conf" %}
+          {% elsif entry.type == "article" %}
+            {% assign badge_class = "badge rounded w-100 badge-journal" %}
+          {% endif %}
+          <abbr class="{{ badge_class }}">
         {% endif %}
       {% endif %}
       {% if entry.preview %}
