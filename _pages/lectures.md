@@ -4,7 +4,7 @@ title: lectures
 permalink: /lectures/
 description:
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 <h2 style="margin-top: 40px;">Lectures</h2>

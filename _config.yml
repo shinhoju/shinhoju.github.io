@@ -112,8 +112,6 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  lectures:
-    output: true
   news:
     defaults:
       layout: post
