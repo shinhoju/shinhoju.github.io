@@ -73,4 +73,5 @@ nav_order: 5
       <div class="lecture-meta">Pukyong National University · Undergraduate Course</div>
     </div>
   </div>
-  
+
+</div>
