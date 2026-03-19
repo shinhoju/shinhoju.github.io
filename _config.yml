@@ -112,7 +112,7 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
+  lectures:
     output: true
   news:
     defaults:

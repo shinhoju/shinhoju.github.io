@@ -19,7 +19,7 @@ nav_order: 5
     <i>National Research Foundation of Korea (NRF)</i>, 9/2025–8/2026
   </li>
   <li style="margin-bottom: 12px;">
-    <strong>BK21 Four, 3/2022–Present</strong>
+    <strong>BK21 Four</strong>, 3/2022–Present
   </li>
 </ul>
 
