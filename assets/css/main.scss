@@ -25,9 +25,8 @@ $max-content-width: {{ site.max_width }};
 ;
 
 .site-title {
-  text-align: left;
-  font-weight: 400;
-  color: #9ca3af;
+  font-weight: 300 !important;
+  color: #9ca3af !important;
 }
 
 .title-bold {
