@@ -49,7 +49,7 @@ nav_order: 5
 
   <!-- 자료구조 -->
   <div class="lecture-item">
-    <div class="lecture-year">2023-2026/div>
+    <div class="lecture-year">2023-2026</div>
     <div class="lecture-content">
       <div class="lecture-title">Data Structures</div>
       <div class="lecture-meta">Pukyong National University · Undergraduate Course</div>
@@ -58,7 +58,7 @@ nav_order: 5
 
   <!-- 알고리즘 -->
   <div class="lecture-item">
-    <div class="lecture-year">20223-2026/div>
+    <div class="lecture-year">2023-2026</div>
     <div class="lecture-content">
       <div class="lecture-title">Algorithms</div>
       <div class="lecture-meta">Pukyong National University · Undergraduate Course</div>
@@ -67,7 +67,7 @@ nav_order: 5
 
   <!-- 프로그래밍 언어 -->
   <div class="lecture-item">
-    <div class="lecture-year">2022/div>
+    <div class="lecture-year">2022</div>
     <div class="lecture-content">
       <div class="lecture-title">Programming Languages</div>
       <div class="lecture-meta">Pukyong National University · Undergraduate Course</div>
