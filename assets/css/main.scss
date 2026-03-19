@@ -96,3 +96,24 @@ abbr.badge a {
   color: white !important;
   text-decoration: none;
 }
+
+//lectures
+.lecture-item {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.lecture-year {
+  width: 60px;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.lecture-title {
+  font-weight: 500;
+}
+
+.lecture-meta {
+  font-size: 14px;
+  color: #6b7280;
+}
