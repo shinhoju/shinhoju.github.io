@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/lectures/";
           },
+        },{id: "nav-join-us",
+          title: "join us",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/join-us/";
+          },
         },{id: "post-office-ambience",
         
           title: "Office Ambience",
