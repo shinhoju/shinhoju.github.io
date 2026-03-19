@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Vision Lab. # the website title (if blank, full name will be used instead)
+title: Vision Lab # the website title (if blank, full name will be used instead)
 first_name: Vision
-last_name: Lab.
+last_name: Lab
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The blog and website for Vision Lab.
 footer_text: >

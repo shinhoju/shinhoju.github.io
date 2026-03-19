@@ -24,8 +24,15 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-.site-title-bold {
+.site-title {
+  text-align: left;
+  font-weight: 400;
+  color: #9ca3af;
+}
+
+.title-bold {
   font-weight: 700;
+  color: #374151;
 }
 
 .join-text {
